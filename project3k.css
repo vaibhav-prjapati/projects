@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+   /*  */
+   font-family: "Red Rose", cursive;
+   
+}
+body {
+    background-image: url(pexels-maxyne-barcel-10402282\ 1.png);
+   background-size: cover;
+   background-attachment: fixed;
+}
+div {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 2%;
+    height: 18vh;
+}
+div img {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+}
+div ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25%;
+    font-family: "Red Rose";
+     font-style: normal;
+     line-height: 22px;
+     
+}
+div ul li {
+    list-style: none;
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+    list-style: none;
+    color: #ffc233;
+}
+div button {
+
+    padding: 6px 18px;
+    font-weight: 900;
+    background-color: #ff505f;
+    border-radius: 10px;
+    line-height: 30px;
+  color: #ffffff;
+  cursor: pointer;
+    cursor: pointer;
+    font-family: "Red Rose";
+  font-style: normal;
+}
+div button:hover{
+    background-color: white;
+    color:#ff505f;
+}
+section h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 6%;
+    font-size: 70px;
+    font-weight: 1000;
+    font-family: "Dela Gothic One", cursive;
+    color: #ffc233;
+}
+section span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+section span button {
+    padding: 13px 35px;
+    border-radius: 15px;
+    font-weight: 1000;
+    font-size: 17px;
+    cursor: pointer;
+    background: #ff505f;
+  font-family: "Red Rose";
+  font-style: normal;
+  color: #ffffff;
+  border: none;
+}
+section span button:hover{
+    background-color: #ffffff;
+    color: #ff505f ;
+    border:2px solid black;
+}
+footer {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
+footer img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
